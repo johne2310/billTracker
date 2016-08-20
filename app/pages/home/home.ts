@@ -9,6 +9,7 @@ import { BillCreatePage } from '../bill-create/bill-create';
   templateUrl: 'build/pages/home/home.html',
   pipes: [DateFormatPipe]
 })
+
 export class HomePage {
 
   billList: FirebaseListObservable<any>;
