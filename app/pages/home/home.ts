@@ -16,7 +16,7 @@ export class HomePage {
 
   constructor(public navCtrl: NavController, private alertCtrl: AlertController, public af: AngularFire) {
     this.billList = af.database.list('/bills');
-    this.test = 'John';
+    this.test = 'Mary';
 
   }
 
