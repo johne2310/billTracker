@@ -12,9 +12,11 @@ import { BillCreatePage } from '../bill-create/bill-create';
 export class HomePage {
 
   billList: FirebaseListObservable<any>;
+  test: string;
 
   constructor(public navCtrl: NavController, private alertCtrl: AlertController, public af: AngularFire) {
     this.billList = af.database.list('/bills');
+    this.test = 'John';
 
   }
 
